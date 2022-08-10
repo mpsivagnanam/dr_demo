@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(252, 252, 252);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.headernav {
+  background-color: rgb(229, 233, 235);
+  padding: 16px 32px;
+  
+}
+
+.headernav a {
+  vertical-align: top;
+  
+  margin: 80px 20px ;
+  font-weight: bold;
+  font-size: large;
+    
+  padding: 10px;
+  color: rgb(9, 72, 92);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=number],input[type=date] {
+  
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(229, 233, 235);
+font-family: Georgia, 'Times New Roman', Times, serif;
+  width: -webkit-fill-available;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(218, 235, 245);
+  outline-color: cadetblue;
+  border-color: blue;
+  font-weight: bolder;
+  font-size: large;
+}
+
+textarea {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(229, 233, 235);
+  margin: 10px;
+  float: left;
+  
+}
+
+
+textarea:focus {
+  width: 50%;
+  background-color: rgb(218, 235, 245);
+  outline-color: cadetblue;
+  border-color: blue;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.label-normal {
+  font-weight: bold;
+  display: block;
+}
+.label-symptoms {
+  font-weight: bold;
+  width: 30%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+/* CSS */
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #5bbea1 5%, #476e9e 100%);
+	background-color:#4cb484;
+	border-radius:10px;
+	border:1px solid #4e9678;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  width: 90%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #47989e 5%, #7892c2 100%);
+	background-color:#35ac84;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+h2 {
+  text-align: center;
+}
